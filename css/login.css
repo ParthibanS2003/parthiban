@@ -1,0 +1,52 @@
+/* center login form */
+.login-form {
+    margin: 0 auto;
+    width: 350px;
+  }
+  body{
+    
+    background-image: url("i.jpg");
+  }
+  /* form input fields */
+  .form-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  label{
+color: #061407;
+background-color: aqua;
+padding: .5%;
+  };
+ 
+
+  /* form submit button */
+  .form-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .form-submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* error message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* success message */
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+  }
