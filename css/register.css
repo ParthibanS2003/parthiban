@@ -1,13 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+#s{
+  text-align: center;
+  vertical-align: top;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  box-sizing: border-box;
+  
+}
+.container {
+  background: #e2dddd;
+  width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-origin:center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  top: 500px;
+  bottom: 500px;
+  margin-top: 120px;
+  
+  
+}
+
+
 /* center signup form */
 .signup-form {
     margin: 0 auto;
     width: 350px;
   }
-  label{
-    color: #061407;
-    background-color: aqua;
-    padding: .5%;
-      };
+  
   /* form input fields */
   .form-input {
     padding: 10px;
@@ -16,10 +52,7 @@
     border-radius: 5px;
     border: 1px solid #ccc;
   }
-  body{
-    
-    background-image: url("i.jpg");
-  }
+  
   /* form submit button */
   .form-submit {
     background-color: #4CAF50;
